@@ -3,6 +3,8 @@
 
 [#1 Build configuration import testing](https://github.com/avadhesh12345678/Swift-Updates#1-build-configuration-import-testing)         
 [#2 Target environment testing](https://github.com/avadhesh12345678/Swift-Updates#1-target-environment-testing)
+[#3 Derived collections of enum cases](https://github.com/avadhesh12345678/Swift-Updates#1-derived-collections-of-enum-cases)
+
 
 
 
@@ -24,6 +26,19 @@
 #else
    // code for real devices here
 #endif
+```
+
+## [#3 Derived collections of enum cases](https://github.com/avadhesh12345678)
+
+```swift
+enum Developers: CaseIterable {
+    case vishal, avadhesh, sandeep, anil
+}
+```
+```swift
+for developer in Developers.allCases {
+    print("iOS Developer - \(developer).")
+}
 ```
 
 
