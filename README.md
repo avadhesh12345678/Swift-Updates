@@ -2,11 +2,9 @@
 
 
 [#1 Build configuration import testing](https://github.com/avadhesh12345678/Swift-Updates#1-build-configuration-import-testing)         
-[#2 Target environment testing](https://github.com/avadhesh12345678/Swift-Updates#2-target-environment-testing)   
-[#3 Derived collections of enum cases](https://github.com/avadhesh12345678/Swift-Updates#3-derived-collections-of-enum-cases) 
-[#4 Warning and error diagnostic directives](https://github.com/avadhesh12345678/Swift-Updates#4-warning-and-error- diagnostic-directives)   
-
-
+[#2 Target environment testing](https://github.com/avadhesh12345678/Swift-Updates#2-target-environment-testing)     
+[#3 Derived collections of enum cases](https://github.com/avadhesh12345678/Swift-Updates#3-derived-collections-of-enum-cases)     
+[#4 Warning and error diagnostic directives](https://github.com/avadhesh12345678/Swift-Updates#4-warning-and-error- diagnostic-directives) .    
 
 
 
