@@ -7,8 +7,8 @@
 [#4 Warning and error diagnostic directives](https://github.com/avadhesh12345678/Swift-Updates#4-warning-and-error-diagnostic-directives)       
 [#5 Random number generation and shuffling](https://github.com/avadhesh12345678/Swift-Updates#5-random-number-generation-and-shuffling)  
 [#6 Boolean toggling](https://github.com/avadhesh12345678/Swift-Updates#6-boolean-toggling)  
-[#7 In-place collection element removal](https://github.com/avadhesh12345678/Swift-Updates#7-in-place-collection-element-removal) 
-
+[#7 In-place collection element removal](https://github.com/avadhesh12345678/Swift-Updates#7-in-place-collection-element-removal)  
+[#8 Checking sequence elements match a condition](https://github.com/avadhesh12345678/Swift-Updates#8-checking-sequence-elements-match-a-condition)   
 
 
 ## [#1 Build configuration import testing](https://github.com/avadhesh12345678)
@@ -89,6 +89,13 @@ loggedIn.toggle()
 var developers = ["Avadhesh", "Vishal", "Sandeep", "Anil", "Prashant"]
 developers.removeAll { $0.hasPrefix("Sandeep") }
 print(developers)
+```
+
+## [#8 Checking sequence elements match a condition](https://github.com/avadhesh12345678)
+
+```swift
+let scores = [80, 88, 95, 92]
+let passed = scores.allSatisfy { $0 >= 85 }
 ```
 
 
