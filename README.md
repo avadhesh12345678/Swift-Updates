@@ -7,8 +7,7 @@
 [#4 Warning and error diagnostic directives](https://github.com/avadhesh12345678/Swift-Updates#4-warning-and-error-diagnostic-directives)       
 [#5 Random number generation and shuffling](https://github.com/avadhesh12345678/Swift-Updates#5-random-number-generation-and-shuffling)  
 [#6 Boolean toggling](https://github.com/avadhesh12345678/Swift-Updates#6-boolean-toggling)
-
-
+[#7 In-place collection element removal](https://github.com/avadhesh12345678/Swift-Updates#7-in-place-collection-element-removal) 
 
 
 
@@ -83,6 +82,15 @@ let randomCGFloat = CGFloat.random(in: 1...1000)
 var loggedIn = false
 loggedIn.toggle()
 ```
+
+## [#7 In-place collection element removal](https://github.com/avadhesh12345678)
+
+```swift
+var developers = ["Avadhesh", "Vishal", "Sandeep", "Anil", "Prashant"]
+developers.removeAll { $0.hasPrefix("Sandeep") }
+print(developers)
+```
+
 
 
 
