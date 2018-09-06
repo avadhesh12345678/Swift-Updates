@@ -3,7 +3,9 @@
 
 [#1 Build configuration import testing](https://github.com/avadhesh12345678/Swift-Updates#1-build-configuration-import-testing)         
 [#2 Target environment testing](https://github.com/avadhesh12345678/Swift-Updates#1-target-environment-testing)   
-[#3 Derived collections of enum cases](https://github.com/avadhesh12345678/Swift-Updates#1-derived-collections-of-enum-cases)
+[#3 Derived collections of enum cases](https://github.com/avadhesh12345678/Swift-Updates#1-derived-collections-of-enum-cases) 
+[#3 Warning and error diagnostic directives](https://github.com/avadhesh12345678/Swift-Updates#1-warning-and-error- diagnostic-directives)   
+
 
 
 
@@ -40,6 +42,25 @@ for developer in Developers.allCases {
     print("iOS Developer - \(developer).")
 }
 ```
+
+## [#4 Warning and error diagnostic directives](https://github.com/avadhesh12345678)
+
+```swift
+func encrypt(_ string: String, with password: String) -> String {
+    #warning("This is terrible method of encryption")
+    return password + String(string.reversed()) + password
+}
+
+struct Configuration {
+    var apiKey: String {
+        #error("Please enter your API key below then delete this line.")
+        return "Enter your key here"
+    }
+} 
+```
+
+
+
 
 
 
