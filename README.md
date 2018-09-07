@@ -1,17 +1,17 @@
 # Table of contents (Updated : Swift 4)
 
 
-[#1 Build configuration import testing](https://github.com/avadhesh12345678/Swift-Updates#1-build-configuration-import-testing)         
-[#2 Target environment testing](https://github.com/avadhesh12345678/Swift-Updates#2-target-environment-testing)     
-[#3 Derived collections of enum cases](https://github.com/avadhesh12345678/Swift-Updates#3-derived-collections-of-enum-cases)     
-[#4 Warning and error diagnostic directives](https://github.com/avadhesh12345678/Swift-Updates#4-warning-and-error-diagnostic-directives)       
-[#5 Random number generation and shuffling](https://github.com/avadhesh12345678/Swift-Updates#5-random-number-generation-and-shuffling)  
-[#6 Boolean toggling](https://github.com/avadhesh12345678/Swift-Updates#6-boolean-toggling)  
-[#7 In-place collection element removal](https://github.com/avadhesh12345678/Swift-Updates#7-in-place-collection-element-removal)  
-[#8 Checking sequence elements match a condition](https://github.com/avadhesh12345678/Swift-Updates#8-checking-sequence-elements-match-a-condition)   
+[#8 Build configuration import testing](https://github.com/avadhesh12345678/Swift-Updates#8-build-configuration-import-testing)         
+[#7 Target environment testing](https://github.com/avadhesh12345678/Swift-Updates#7-target-environment-testing)     
+[#6 Derived collections of enum cases](https://github.com/avadhesh12345678/Swift-Updates#6-derived-collections-of-enum-cases)     
+[#5 Warning and error diagnostic directives](https://github.com/avadhesh12345678/Swift-Updates#5-warning-and-error-diagnostic-directives)       
+[#4 Random number generation and shuffling](https://github.com/avadhesh12345678/Swift-Updates#4-random-number-generation-and-shuffling)  
+[#3 Boolean toggling](https://github.com/avadhesh12345678/Swift-Updates#3-boolean-toggling)  
+[#2 In-place collection element removal](https://github.com/avadhesh12345678/Swift-Updates#2-in-place-collection-element-removal)  
+[#1 Checking sequence elements match a condition](https://github.com/avadhesh12345678/Swift-Updates#1-checking-sequence-elements-match-a-condition)   
 
 
-## [#1 Build configuration import testing](https://github.com/avadhesh12345678)
+## [#8 Build configuration import testing](https://github.com/avadhesh12345678)
 
 ```swift
 #if canImport(SpriteKit)
@@ -21,7 +21,7 @@
 #endif
 ```
 
-## [#2 Target environment testing](https://github.com/avadhesh12345678)
+## [#7 Target environment testing](https://github.com/avadhesh12345678)
 
 ```swift
 #if targetEnvironment(simulator)
@@ -31,7 +31,7 @@
 #endif
 ```
 
-## [#3 Derived collections of enum cases](https://github.com/avadhesh12345678)
+## [#6 Derived collections of enum cases](https://github.com/avadhesh12345678)
 
 ```swift
 enum Developers: CaseIterable {
@@ -47,7 +47,7 @@ for developer in Developers.allCases {
 
 ```
 
-## [#4 Warning and error diagnostic directives](https://github.com/avadhesh12345678)
+## [#5 Warning and error diagnostic directives](https://github.com/avadhesh12345678)
 
 ```swift
 func encrypt(_ string: String, with password: String) -> String {
@@ -64,7 +64,7 @@ struct Configuration {
 ```
 
 
-## [#5 Random number generation and shuffling](https://github.com/avadhesh12345678)
+## [#4 Random number generation and shuffling](https://github.com/avadhesh12345678)
 
 ```swift
 let randomInt = Int.random(in: 1..<5)
@@ -76,14 +76,14 @@ let randomDouble = Double.random(in: 1...100)
 let randomCGFloat = CGFloat.random(in: 1...1000)
 ```
 
-## [#6 Boolean toggling](https://github.com/avadhesh12345678)
+## [#3 Boolean toggling](https://github.com/avadhesh12345678)
 
 ```swift
 var loggedIn = false
 loggedIn.toggle()
 ```
 
-## [#7 In-place collection element removal](https://github.com/avadhesh12345678)
+## [#2 In-place collection element removal](https://github.com/avadhesh12345678)
 
 ```swift
 var developers = ["Avadhesh", "Vishal", "Sandeep", "Anil", "Prashant"]
@@ -91,7 +91,7 @@ developers.removeAll { $0.hasPrefix("Sandeep") }
 print(developers)
 ```
 
-## [#8 Checking sequence elements match a condition](https://github.com/avadhesh12345678)
+## [#1 Checking sequence elements match a condition](https://github.com/avadhesh12345678)
 
 ```swift
 let scores = [80, 88, 95, 92]
