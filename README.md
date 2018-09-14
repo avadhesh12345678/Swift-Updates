@@ -1,8 +1,5 @@
 # Table of contents 
 
-# Swift 4.2 Array 
-
-
 
 # Swift 4.2 Updates
 
