@@ -15,7 +15,34 @@
 [#2 In-place collection element removal](https://github.com/avadhesh12345678/Swift-Updates#2-in-place-collection-element-removal)  
 [#1 Checking sequence elements match a condition](https://github.com/avadhesh12345678/Swift-Updates#1-checking-sequence-elements-match-a-condition)   
 
+## [#9 Array Functions](https://github.com/avadhesh12345678)
+ # 1. Map
+ Use map to loop over a collection and apply the same operation to each element in the collection.
+```swift
+let arrayOfInt = [2,3,4,5,4,7,2]
+let newArrUsingMap = arrayOfInt.map { $0 * 10 } // where $0 is enumrated object of an array/Sequence
+// prints [20, 30, 40, 50, 40, 70, 20]
+```
+# 2. Filter
+Use filter to loop over a collection and return an Array containing only those elements that match an include condition.
+```swift
+let arr = ["Hello","Bye","Halo"]
+let filtered = arr.filter { $0.contains("lo") }
+// prints ["Hello", "Halo"] 
 
+```
+# 3. Flatmap
+Flatmap is used to flatten a collection of collections . But before flattening the collection, we can apply map to each elements.
+Read it like : map + (Flat the collection)
+```swift
+[“abc”,”def”,”ghi”].flatMap { $0.uppercased() }
+// output : ["A", "B", "C", "D", "E", "F", "G", "H", "I"] but only map function output would be output: [“ABC”, “DEF”, “GHI”]
+```
+ # All function in one line ;)
+ ```swift
+ let arrayOfArray = [[2,1],[4]]
+ let sum = arrayOfArray.flatMap{$0}.filter({$0 % 2 == 0}).map({$0*$0}).reduce(0 ,+) // 20
+ ```
 ## [#8 Build configuration import testing](https://github.com/avadhesh12345678)
 
 ```swift
