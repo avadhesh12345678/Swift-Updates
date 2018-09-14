@@ -1,11 +1,12 @@
 # Table of contents 
 
+# Swift 4.2 Array 
 
 
 
 # Swift 4.2 Updates
 
-
+[#9 Array Functions](https://github.com/avadhesh12345678/Swift-Updates#9-array-functions)     
 [#8 Build configuration import testing](https://github.com/avadhesh12345678/Swift-Updates#8-build-configuration-import-testing)         
 [#7 Target environment testing](https://github.com/avadhesh12345678/Swift-Updates#7-target-environment-testing)     
 [#6 Derived collections of enum cases](https://github.com/avadhesh12345678/Swift-Updates#6-derived-collections-of-enum-cases)     
