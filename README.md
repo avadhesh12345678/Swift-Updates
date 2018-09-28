@@ -39,7 +39,8 @@ Read it like : map + (Flat the collection)
  # All function in one line ;)
  ```swift
  let arrayOfArray = [[2,1],[4]]
- let sum = arrayOfArray.flatMap{$0}.filter({$0 % 2 == 0}).map({$0*$0}).reduce(0 ,+) // 20
+let sum = arrayOfArray.flatMap{$0}.filter{$0 % 2 == 0}.map{$0 * $0}
+print(sum.reduce(0, +)) //20
  ```
 ## [#8 Build configuration import testing](https://github.com/avadhesh12345678)
 
