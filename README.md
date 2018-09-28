@@ -36,10 +36,10 @@ Read it like : map + (Flat the collection)
 [“abc”,”def”,”ghi”].flatMap { $0.uppercased() }
 // output : ["A", "B", "C", "D", "E", "F", "G", "H", "I"] but only map function output would be output: [“ABC”, “DEF”, “GHI”]
 ```
- # All function in one line ;)
+ # 4. All function in one line ;-)
  ```swift
  let arrayOfArray = [[2,1],[4]]
- let sum = arrayOfArray.flatMap{$0}.filter({$0 % 2 == 0}).map({$0*$0}).reduce(0 ,+) // 20
+ let sum = arrayOfArray.flatMap{$0}.filter{$0 % 2 == 0}.map{$0*$0}.reduce(0 ,+) // 20
  ```
 ## [#8 Build configuration import testing](https://github.com/avadhesh12345678)
 
