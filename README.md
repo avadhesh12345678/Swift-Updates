@@ -119,6 +119,7 @@ loggedIn.toggle()
 var developers = ["Avadhesh", "Vishal", "Sandeep", "Anil", "Prashant"]
 developers.removeAll { $0.hasPrefix("Sandeep") }
 print(developers)
+// "["Avadhesh", "Vishal", "Anil", "Prashant"]\n"
 ```
 
 ## [#1 Checking sequence elements match a condition](https://github.com/avadhesh12345678)
